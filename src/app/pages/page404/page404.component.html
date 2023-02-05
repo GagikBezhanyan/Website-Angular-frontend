@@ -1,0 +1,18 @@
+<div class="page404">
+    <div class="pattern">
+        <app-header></app-header>
+    </div>
+    
+    <main>
+        <div class="container">
+            <div class="img_404">
+                <img [src]="image404" alt="img404" title="Error404">   
+            </div>
+            <h2 class="title1" *ngFor="let item of data">{{item.title}}</h2>
+            <p class="title2" *ngFor="let item of data">{{item.text}}</p>
+            <div class="btn_block">
+                <a class="btn" routerLink="/home" *ngFor="let item of data">{{item.btn_text}}</a>
+            </div>
+        </div>
+    </main>
+</div>

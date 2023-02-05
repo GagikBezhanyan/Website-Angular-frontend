@@ -1,0 +1,261 @@
+.main {
+    padding: 100px 0;
+}
+.title {
+    width: 746px;
+    font-family: 'KyivType Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    margin: 0 0 125px 112px;
+}
+.wood_block {
+    display: flex;
+    justify-content: space-between;
+}
+.wood_img {
+    text-align: center;
+}
+.wood_img img {
+    width: 205px;
+    height: 205px;
+}
+.wood_title {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    padding: 33px 0 30px;
+}
+.wood_property {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    padding: 14px 0;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 1000px;
+    }
+    .title {
+        width: 746px;
+        font-size: 80px;
+        margin: 0 0 125px 112px;
+    }
+    .wood_title {
+        text-align: center;
+        font-size: 29px;
+        line-height: 36px;
+    }
+    .wood_property {
+        font-size: 28px;
+        line-height: 36px;
+        padding: 14px 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+    .title {
+        width: 550px;
+        font-size: 65px;
+        margin: 0 0 110px 90px;
+    }
+    .wood_img img {
+        width: 180px;
+        height: 180px;
+    }
+    .wood_title {
+        text-align: center;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .wood_property {
+        font-size: 25px;
+        line-height: 34px;
+        padding: 12px 0;
+    }
+    .icon {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+    .main {
+        padding: 70px 0;
+    }
+    .title {
+        width: 475px;
+        font-size: 60px;
+        margin: 0 0 110px 25px;
+    }
+    .wood_block {
+        display: flex;
+        justify-content: space-between;
+        overflow: scroll;
+    }
+    .wood {
+        width: 250px;
+        margin: 0 10px;
+    }
+    .wood_img img {
+        width: 150px;
+        height: 150px;
+    }
+    .wood_title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .wood_property {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 9px 0;
+        width: 225px;
+    }
+    .icon {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        width: 450px;
+    }
+    .title {
+        width: 395px;
+        font-size: 50px;
+        margin: 0 0 100px 25px;
+    }
+    .wood {
+        width: 250px;
+    }
+    .wood_img img {
+        width: 130px;
+        height: 130px;
+    }
+    .wood_title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .wood_property {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 9px 0;
+        width: 225px;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 350px;
+    }
+    .title {
+        width: 325px;
+        font-size: 40px;
+        margin: 0 0 95px 25px;
+    }
+    .wood {
+        width: 180px;
+        margin: 0 7px;
+    }
+    .wood_img img {
+        width: 130px;
+        height: 130px;
+    }
+    .wood_title {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .wood_property {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 5px 0;
+        width: 180px;
+    }
+    .icon {
+        width: 17px;
+        height: 17px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 250px;
+    }
+    .main {
+        padding: 40px 0;
+    }
+    .title {
+        width: 235px;
+        font-size: 30px;
+        margin: 0 0 80px 10px;
+    }
+    .wood {
+        width: 150px;
+        margin: 0 4px;
+    }
+    .wood_img img {
+        width: 90px;
+        height: 90px;
+    }
+    .wood_title {
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+        padding: 16px 0;
+    }
+    .wood_property {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 4px 0;
+        width: 150px;
+    }
+    .icon {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 200px;
+    }
+    .title {
+        width: 200px;
+        font-size: 25px;
+    }
+}
+

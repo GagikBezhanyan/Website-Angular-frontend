@@ -1,0 +1,134 @@
+.main{
+    width: 100%;
+    padding: 100px 0 150px 0;
+}
+.title {
+    font-family: 'KyivType Sans Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    margin: 0 0 121px 201px;
+}
+.block {
+    width: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.block img {
+    height: 800px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 1000px;
+    }
+    .title {
+        font-size: 80px;
+        margin: 0 0 121px 190px;
+    }
+    .block img {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 900px;
+    }
+    .title {
+        font-size: 70px;
+        margin: 0 0 106px 180px;
+    }
+    .block img {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+    .title {
+        font-size: 60px;
+        margin: 0 0 90px 140px;
+    }
+    .block img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+    .main{
+        padding: 70px 0 105px 0;
+    }
+    .title {
+        font-size: 50px;
+        margin: 0 0 75px 100px;
+    }
+    .block img {
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        width: 450px;
+    }
+    .title {
+        font-size: 40px;
+        margin: 0 0 60px 60px;
+    }
+    .block img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 350px;
+    }
+    .title {
+        font-size: 35px;
+        margin: 0 0 59px 30px;
+    }
+    .block img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 250px;
+    }
+    .main{
+        padding: 40px 0 80px 0;
+    }
+    .title {
+        font-size: 30px;
+        margin: 0 0 49px 15px;
+    }
+    .block img {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 200px;
+    }
+    .title {
+        font-size: 25px;
+        margin: 0 0 45px 14px;
+    }
+    .block img {
+        height: 150px;
+    }
+}
+

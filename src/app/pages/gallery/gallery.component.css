@@ -1,0 +1,30 @@
+.gallery {
+    width: 100%;
+    background-image: url('../../../assets/images/swg3.png');
+    background-repeat: no-repeat;
+    background-color: #242222;
+}
+.pattern {
+    background-color: #1E0C06; 
+    border-radius: 0px 0px 79px 79px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .pattern {
+        border-radius: 0px 0px 60px 60px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .pattern {
+        border-radius: 0px 0px 50px 50px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .pattern {
+        border-radius: 0px 0px 40px 40px;
+    }
+}
+

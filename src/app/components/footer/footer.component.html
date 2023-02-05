@@ -1,0 +1,23 @@
+<footer class="footer">
+    <div class="container">
+        <div class="block">
+            <div class="logo">
+                <a routerLink="/home">
+                    <img [src]="logo" alt="logo" title="logo">
+                </a>
+            </div>
+            <div class="myblock">
+                <div class="info_block" *ngFor="let item of list">
+                    <a href="#" class="info">
+                        <img [src]="item.icon">
+                        <p class="text">{{item.text}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="policy_block" (click)="show()">
+            <p class="policy" *ngFor="let item of data">{{item.text}}</p>
+        </div>
+        <div class="hidden_policy" *ngIf="isShow">Here must be some text about Privacy Policy.</div>
+    </div>
+</footer>

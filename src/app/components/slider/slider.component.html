@@ -1,0 +1,12 @@
+<div class="main">
+  <div class="container">
+    <h2 class="title" *ngFor="let item of data">{{item.title}}</h2>
+    <div class="block">
+        <carousel>
+          <slide *ngFor="let item of arr">
+            <img [src]="item" alt="slide" style="display: block; width: 100%;">
+          </slide>
+        </carousel>
+    </div> 
+  </div>
+</div>

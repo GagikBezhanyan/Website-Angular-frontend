@@ -1,0 +1,28 @@
+<div class="contact">
+    <div class="pattern">
+        <app-header></app-header>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="info">
+                <div class="title">
+                    <p class="title_name" *ngFor="let item of data">{{item.title}}</p>
+                    <div class="title_info" *ngFor="let item of list">
+                        <a href="#" class="icon">
+                            <img [src]="item.icon">
+                            <p class="text">{{item.text}}</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.147874755093!2d14.407987915249613!3d50.06479222295962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b945b93ec8603%3A0x49af3bc9729cdc7b!2sAllzora!5e0!3m2!1sen!2s!4v1674510741626!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div> 
+        </div>
+    </main>
+
+    <app-footer></app-footer>
+</div>
+
+

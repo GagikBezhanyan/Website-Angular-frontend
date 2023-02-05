@@ -1,0 +1,48 @@
+<div class="home">
+    <div class="wood_background">
+        <app-header></app-header>
+        <main>
+            <div class="wood_block">
+                <div class="block" *ngFor="let item of data1">
+                    <div class="info_block">
+                        <div class="title_block">{{item.title}}</div>
+                        <div class="text_block">{{item.text}}</div>
+                        <button type="submit" class="btn">{{item.btn_text}}</button>
+                    </div>
+                    <div class="line_block"></div>
+                    <div class="picture_block">
+                        <div class="first_pic" [ngStyle]= "style[1]"></div>
+                        <div class="second_pic" [ngStyle]= "style[2]"></div>
+                        <div class="third_pic" [ngStyle]= "style[3]"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <main>
+        <app-wood-types></app-wood-types>
+        <app-slider></app-slider>
+
+
+        <div class="advantage_block">
+            <div class="container">
+                <div class="myblock" *ngFor="let item of data2">
+                    <h2 class="title">{{item.title}}</h2>
+                    <div class="info">
+                        <div class="video" [ngStyle]="style_img"></div>
+                        <div class="mytext_block">
+                            <p class="mytext" *ngFor="let key of item.texts">{{key.text}}</p>
+                        </div>
+                    </div>
+                    <button type="button" class="mybtn">{{item.btn_text}}</button>
+                </div>
+            </div>
+        </div>
+
+
+        <app-about-info></app-about-info>
+        <app-questions></app-questions>
+    </main>
+    <app-footer></app-footer>
+</div>

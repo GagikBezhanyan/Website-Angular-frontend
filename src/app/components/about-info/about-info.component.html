@@ -1,0 +1,13 @@
+<div class="main">
+    <div class="block">
+        <div class="info" *ngFor="let item of data">
+            <div class="title">{{item.title}}</div>
+            <div class="text">{{item.text}}</div>
+        </div>
+        <div class="pictures">
+            <div class="first_pic" [ngStyle]="style[1]"></div>
+            <div class="second_pic" [ngStyle]="style[2]"></div>
+            <div class="third_pic" [ngStyle]="style[3]"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="main">
+    <div class="container">
+        <div class="block">
+            <h2 class="title" *ngFor="let item of data">{{item.title}}</h2>
+            <div class="wood_block">
+                <div class="wood" *ngFor="let key of category">
+                    <div class="wood_img"><img [src]="key.image"></div>
+                    <p class="wood_title">{{key.subtitle}}</p>
+                    <p class="wood_property" *ngFor="let lock of key.properties"><img class="icon" [src]="lock.icon">{{lock.text}}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,263 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "icon" : "assets/images/logo.png",
+            "menuList": [
+                {
+                    "id": 1,
+                    "text": "Gallery",
+                    "path": "/gallery"
+                },
+                {
+                    "id": 2,
+                    "text": "Prices for services",
+                    "path": "/prices"
+                },
+                {
+                    "id": 3,
+                    "text": "About us",
+                    "path": "/about"
+                },
+                {
+                    "id": 4,
+                    "text": "Contact",
+                    "path": "/contact"
+                }
+            ]
+        }
+    ],
+    "solid_block": [
+        {
+            "id": 1,
+            "title": "Solid wood products",
+            "text": "Oak, beech, ash from 1700 CZK per m3",
+            "btn_text": "Order",
+            "images": [
+                {
+                    "id": 1,
+                    "image": "assets/images/image1.png"
+                },
+                {
+                    "id": 2,
+                    "image": "assets/images/image2.png"
+                },
+                {
+                    "id": 3,
+                    "image": "assets/images/image3.png"
+                }
+            ]
+        }
+    ],
+    "wood_work": [
+        {
+            "id": 1,
+            "title": "THE WOOD WE WORK WITH",
+            "categories": [
+                {
+                    "id": 1,
+                    "image": "assets/images/wood1.png",
+                    "subtitle": "Oak",
+                    "properties": [
+                        {
+                            "id": 1,
+                            "text": "Durability",
+                            "icon": "assets/images/check-mark.png"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Beautiful texture",
+                            "icon": "assets/images/check-mark.png"
+                        },
+                        {
+                            "id": 3,
+                            "text": "Water resistance",
+                            "icon": "assets/images/check-mark.png"
+                        },
+                        {
+                            "id": 4,
+                            "text": "Expensive",
+                            "icon": "assets/images/x-mark.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "image": "assets/images/wood2.png",
+                    "subtitle": "Buk",
+                    "properties": [
+                        {
+                            "id": 1,
+                            "text": "Durability",
+                            "icon": "assets/images/check-mark.png"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Hard to handle",
+                            "icon": "assets/images/x-mark.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "image": "assets/images/wood3.png",
+                    "subtitle": "Ash",
+                    "properties": [
+                        {
+                            "id": 1,
+                            "text": "Durability",
+                            "icon": "assets/images/check-mark.png"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Hard to handle",
+                            "icon": "assets/images/x-mark.png"
+                        }
+                    ]
+                }
+            ]  
+        }
+    ],
+    "advantages" : [ 
+        {
+            "id": 1,
+            "title": "Advantages working with us",
+            "image": "assets/images/video.png",
+            "btn_text": "Receive a consultation",
+            "texts": [
+                {
+                    "id": 1,
+                    "text": "In-house carpentry production"
+                },
+                {
+                    "id": 2,
+                    "text": "We only treat wood with environmentally friendly and safe products"
+                },
+                {
+                    "id": 3,
+                    "text": "Prices from the manufacturer, no extra charges"
+                }
+            ]
+        }
+    ],
+    "about_us": [ 
+        {
+            "id": 1, 
+            "title": "About us",
+            "text": "BIO CWT - We manufacture solid wood products according to individual drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped with all the necessary industrial equipment.",
+            "images": [
+                {
+                    "id": 1,
+                    "image": "assets/images/picture1.png"
+                },
+                {
+                    "id": 2,
+                    "image": "assets/images/picture2.png"
+                },
+                {
+                    "id": 3,
+                    "image": "assets/images/picture3.png"
+                }
+            ]
+        }
+    ],
+    "any_questions": [
+        {
+            "id": 1,
+            "title" : "Any questions?",
+            "btn_text": "Send",
+            "text" : "Write to us and we will be sure to answer all your questions and give you a comprehensive consultation.",
+            "image" : "assets/images/wood-slice.png"
+        }
+    ],
+    "page404": [
+        {
+            "id": 1,
+            "title": "Woops",
+            "btn_text": "Go to the home page",
+            "text": "Oh, you must be lost, there is no such page.",
+            "image": "assets/images/swg.png"
+        }
+    ],
+    "footer": [
+        {
+            "id": 1,
+            "icon": "assets/images/logo.png",
+            "text": "Privacy Policy",
+            "icons": [
+                {
+                    "id": 1,
+                    "icon": "assets/images/phone.png",
+                    "text": "+420 000 000 000"
+                },
+                {
+                    "id": 2,
+                    "icon": "assets/images/location.png",
+                    "text": "Na Plzeňce 1166/0 150 00"
+                }
+            ]
+        }
+    ],
+    "price_list" : [
+        {
+            "id": 1,
+            "title": "PRICE LIST",
+            "slider":[
+                {
+                    "id": 1,
+                    "image": "assets/images/price1.png"
+                },
+                {
+                    "id": 2,
+                    "image": "assets/images/price2.jpg"
+                },
+                {
+                    "id": 3,
+                    "image": "assets/images/price3.png"
+                }
+            ]
+        }
+    ],
+    "contact": [
+        {
+            "id": 1,
+            "title" : "CONTACT",
+            "icons": [
+                {
+                    "id": 1,
+                    "icon": "assets/images/phone.png",
+                    "text" : "+420 000 000 000"
+                },
+                {
+                    "id": 2,
+                    "icon": "assets/images/location.png",
+                    "text": "Na Plzeňce 1166/0 150 00"
+                }
+            ]
+        }
+    ],
+    "slider": [
+        {
+            "id": 1,
+            "title": "Our Work",
+            "images": [
+                {
+                    "id": 1,
+                    "image": "assets/images/kitchen/1.jpg"
+                },
+                {
+                    "id": 2,
+                    "image": "assets/images/kitchen/2.jpg"
+                },
+                {
+                    "id": 3,
+                    "image": "assets/images/kitchen/3.jpg"
+                },
+                {
+                    "id": 4,
+                    "image": "assets/images/kitchen/4.jpg"
+                }
+            ]
+        }
+    ]
+}

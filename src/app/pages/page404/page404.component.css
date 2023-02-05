@@ -1,0 +1,126 @@
+.page404 {
+    width: 100%;
+    background-image: url('../../../assets/images/imag.png'), url('../../../assets/images/swg1.png');
+    background-repeat: no-repeat;
+    background-color: #242222;
+    background-size: 62% 100%, 100% 100%;
+    padding-bottom: 85px;
+}
+.title1 {
+    text-align: center;
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 107.9%;
+    color: #F5F5F5;
+}
+.title2 {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFDBBB;
+    margin: 37px 0 42px 0;
+}
+.btn_block {
+    text-align: center;
+}
+.btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    background: #728BAD;
+    border-radius: 42px;
+    border: none;
+    padding: 11px 70px;
+    text-decoration: none;
+}
+.btn:hover {
+    color: #F5F5F5;
+    background: #36609f;
+}
+.img_404 img{
+    width: 100%;
+    height: auto
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 470px;
+    }
+    .page404 {
+        background-size: 62% 90%, 100% 100%;
+    }
+    .title1 {
+        font-size: 60px;
+    }
+    .title2 {
+        font-size: 25px;
+    }
+    .btn {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container {
+        width: 360px;
+    }
+    .title1 {
+        font-size: 45px;
+    }
+    .title2 {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 18px;
+        padding: 10px 17px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 300px;
+    }
+    .title1 {
+        font-size: 30px;
+
+        line-height: 107.9%;
+    }
+    .title2 {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 130.4%;
+    }
+    .btn {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 280px;
+    }
+    .title1 {
+        font-size: 28px;
+        line-height: 107.9%;
+    }
+    .title2 {
+        font-size: 13px;
+        font-weight: 200;
+        line-height: 130.4%;
+    }
+    .btn {
+        font-size: 13px;
+    }
+}

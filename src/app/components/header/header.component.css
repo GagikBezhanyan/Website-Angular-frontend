@@ -1,0 +1,147 @@
+.header {
+    width: 100%;
+    padding: 47px 0;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 197px;
+    height: 84px;
+}
+.menu_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item {
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+    margin-left: 57px;
+    padding: 15px 20px;
+}
+.dropdown {
+    display: none;
+}
+.logo:hover {
+    opacity: 0.6;
+}
+.menu_item:hover {
+    background-color: #744d1e;
+    border-radius: 20px;
+}
+.active {
+    color: #ff7600;
+    background-color: #744d1e;
+    border-radius: 20px; 
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .container {
+        width: 1000px;
+    }
+    .menu_item {
+        margin-left: 15px;
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+    .header {
+        padding: 37px 0;
+    }
+    .logo img {
+        width: 140px;
+        height: 60px;
+    }
+    .menu {
+        display: none;
+    }
+    .dropdown {
+        display: block;
+        position: relative;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        min-width: 200px;
+        background-color: rgb(30, 12, 6, 0.78);
+        box-shadow: 0px 10px 15px 0px rgb(231, 190, 101);
+        z-index: 1;
+    }
+    .dropdown-item {
+        color: #F5F5F5;
+        padding: 12px 18px;
+        text-decoration: none;
+        display: block;
+      }
+    .dropdown-icon:hover {
+        opacity: 0.6;
+    }
+    .dropdown-item:hover {
+        background-color:  #744d1e;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        width: 450px;
+    }
+    .header {
+        padding: 26px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 250px;
+    }
+    .header {
+        padding: 22px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 200px;
+    }
+    .dropdown-content {
+        min-width: 160px;
+    }
+}
+

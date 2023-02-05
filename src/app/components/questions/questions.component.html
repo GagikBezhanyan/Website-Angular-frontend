@@ -1,0 +1,21 @@
+<div class="main">
+    <div class="container">
+        <div class="myblock" *ngFor="let item of data">
+            <h2 class="title">{{item.title}}</h2> 
+            <div class="block">
+                <div class="form">
+                    <form>
+                        <input type="text" id="name" placeholder="Your name">
+                        <br>
+                        <input type="tel" id="phone" placeholder="Your telephone number">
+                        <br>
+                        <textarea placeholder="Your question"></textarea>
+                        <button type="submit" id="send">{{item.btn_text}}</button>
+                    </form>
+                </div>
+                <div class="text">{{item.text}}</div>
+            </div>
+        </div>
+        <div class="picture" [ngStyle]="style"></div>
+    </div>
+</div>

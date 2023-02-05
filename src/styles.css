@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('assets/fonts/fonts/fonts/stylesheet.css');
+
+@import url('assets/bootstrap/bootstrap.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    width: 1240px;
+    margin: auto;
+    padding: 0;
+}
+ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
