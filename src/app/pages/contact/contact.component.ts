@@ -16,8 +16,10 @@ export class ContactComponent implements OnInit {
   constructor(public request: RequestService) { }
 
   ngOnInit(): void {
-    this.request.getData(this.url).subscribe((res: any) => {
+    this.request.getData<ContactModel[]>(this.url).subscribe((res: ContactModel[]) => {
       this.data = res;
+      console.log(res[0].icons);
+      
       this.list = this.data[0].icons;
     })
   }

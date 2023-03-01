@@ -8,12 +8,12 @@ export class RequestService {
 
   constructor(public http: HttpClient) { }
 
-  getData(url: string) {
+  getData<Type>(url: string) {
     let header = new HttpHeaders({'Accept-language': 'en'});
-    return this.http.get(url, {headers: header})
+    return this.http.get<Type>(url, {headers: header})
   }
 
-  putData(url: string, value: any) {
+  putData<Type>(url: string, value: Type) {
     let header = new HttpHeaders({'Content-type': 'application/json'});
     return this.http.put(url, value, {headers: header})
   }

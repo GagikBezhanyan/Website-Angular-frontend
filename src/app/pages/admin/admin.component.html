@@ -1,4 +1,5 @@
 <div class="block">
+    
     <div class="menu">
         <ul class="menu_list">
             <li *ngFor="let item of list; let i = index"><a class="list_item" (click)="getData(i)" [routerLink]="item.path">{{item.text}}</a></li>
@@ -7,7 +8,7 @@
 
     <div  class="component">
         <div class="add">
-            <button type="button" class="btn btn-primary" (click)="openModal(template)" (click)="addData()">Add</button>
+            <button type="button" class="btn btn-primary">Add</button>
         </div>
         <table>
             <caption>Here is text</caption>
@@ -33,79 +34,33 @@
                     <td>{{item?.btn_text}}</td>
                     <td>{{item?.path}}</td>
                     <td>
-                        <button type="button" class="btn btn-success" (click)="openModal(template)" (click)="editData(item.id)">Edit</button>
+                        <button type="button" class="btn btn-success">Edit</button>
                     </td>
                     <td>
-                        <button type="button" class="btn btn-danger" (click)="deleteData(item.id)">Delete</button>
+                        <button type="button" class="btn btn-danger" >Delete</button>
                     </td>
                 </tr>
-
-                <!-- <tr *ngFor="let item of mydata">
+                <tr *ngFor="let item of mydata">
                     <td>{{item?.image}}</td>
                     <td>{{item?.icon}}</td>
                     <td>{{item?.title}}</td>
-                    <td>{{item?.text}}</td>
                     <td>{{item?.subtitle}}</td>
+                    <td>{{item?.text}}</td>
                     <td>{{item?.btn_text}}</td>
                     <td>{{item?.path}}</td>
                     <td>
                         <button type="button" class="btn btn-success">Edit</button>
                     </td>
                     <td>
-                        <button type="button" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-danger" >Delete</button>
                     </td>
-                </tr> -->
+                </tr>
             </tbody>
         </table>
     </div>
 
-    <ng-template #template>
-        <div class="modal-header">
-            <h4 class="modal-title pull-left">Add/Edit Component Information</h4>
-            <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
-                <span aria-hidden="true" class="visually-hidden">&times;</span>
-            </button>
-        </div>
-        <div class="modal-body">
-            <form formGroup="form" (ngSubmit)="save()">
-
-                <label for="image">Image:</label>
-                <div>
-                    <input formControlName="image" type="text" id="image">
-                </div>
-                <!-- <label for="icon">Icon:</label>
-                <div>
-                    <input [formControlName]="'icon'" type="text" id="icon">
-                </div>
-                <label for="title">Title:</label>
-                <div>
-                    <input [formControlName]="'title'" type="text" id="title">
-                </div>
-                <label for="subtitle">Subtitle:</label>
-                <div>
-                    <input [formControlName]="'subtitle'" type="text" id="subtitle">
-                </div>
-                <label for="text">Text:</label>
-                <div>
-                    <input [formControlName]="'text'" type="text" id="text">
-                </div>
-                <label for="btn_text">Button Text:</label>
-                <div>
-                    <input [formControlName]="'btn_text'" type="text" id="btn_text">
-                </div>
-                <label for="path">Path:</label>
-                <div>
-                    <input [formControlName]="'path'" type="text" id="path">
-                </div> -->
-
-                <div>
-                   <button (click)="sendChanges()" id="send" type="button">Send changes</button> 
-                </div>
-            </form>
-        </div>
-    </ng-template>
-
     <!-- <div>
         <router-outlet></router-outlet>
     </div> -->
+    
 </div>
